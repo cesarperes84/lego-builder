@@ -1,3 +1,1 @@
-module.exports = {
-    distDir: "public"
-}
+module.exports = {}
