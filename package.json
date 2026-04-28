@@ -8,12 +8,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "@react-three/fiber": "latest",
-    "@react-three/drei": "latest",
     "three": "latest",
     "zustand": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^6.0.3"
   }
 }
