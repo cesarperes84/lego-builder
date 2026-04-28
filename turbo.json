@@ -1,7 +1,0 @@
-{
-    "tasks": {
-      "build": {
-        "outputs": [".next/**", "!.next/cache/**", "public/**"]
-      }
-    }
-  }

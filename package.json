@@ -1,24 +1,26 @@
 {
-  "name": "lego-builder-product-final-v5",
+  "name": "lego-builder",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-three/drei": "latest",
     "@react-three/fiber": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
     "three": "latest",
-    "zustand": "latest"
+    "zustand": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "@types/node": "^25.6.0",
-    "@types/react": "^19.2.14",
-    "typescript": "^6.0.3"
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "6.3.5"
+  },
+  "engines": {
+    "node": ">=18.18.0"
   }
 }
